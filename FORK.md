@@ -1,7 +1,7 @@
 # pi-todo (local fork of `@juicesharp/rpiv-todo`)
 
-Local fork, installed via a path in `~/.pi/agent/settings.json`
-(`pi install /Users/nathanp/Code/pi-todo`). It replaced
+Local fork, installed as `plugins/pi-todo` in `~/.pi/agent/settings.json` (resolved through
+`~/.pi/agent/plugins`, a symlink to this repository's `plugins/`). It replaced
 `npm:@juicesharp/rpiv-todo@2.12.0` so the patch below cannot be silently
 overwritten by `pi update --extensions`.
 
